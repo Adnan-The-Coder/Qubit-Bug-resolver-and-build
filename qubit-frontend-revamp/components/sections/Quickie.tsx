@@ -21,7 +21,7 @@ const Quickie = () => {
           platform, designed to make online shopping effortless and enjoyable.
           With a wide range of products across various categories, Quickie
           ensures that users can find everything they need in one place. Whether
-          you're looking for daily essentials, fashion trends, or the latest
+          you`re looking for daily essentials, fashion trends, or the latest
           tech gadgets, Quickie provides a smooth, user-friendly interface for
           easy browsing and secure purchasing. Our goal is to bring convenience
           and reliability to your shopping journey, making it quicker and

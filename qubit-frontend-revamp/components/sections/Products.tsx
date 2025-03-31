@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import { Store, Briefcase, Users } from "lucide-react";
 import Image from "next/image";

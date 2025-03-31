@@ -20,7 +20,7 @@ const Quantumania = () => {
         <p className="md:text-lg/8 text-sm/6 text-justify ">
           Quantumania is a thriving student community within the Qubit platform,
           designed to empower learners by connecting them with diverse
-          opportunities. Whether you're looking for internships, research
+          opportunities. Whether you`re looking for internships, research
           projects, mentorship, or collaborative study groups, Quantumania
           provides a space where students can explore, engage, and grow. With a
           focus on innovation and knowledge-sharing, this community encourages
