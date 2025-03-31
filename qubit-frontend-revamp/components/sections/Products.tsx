@@ -27,7 +27,7 @@ const products = [
     name: "QuantuMania",
     icon: <Users className="text-green-600 w-10 h-10" />,
     bgColor: "bg-green-100",
-    href: "https://dot-opal.vercel.app/shop",
+    href: "/quantumania",
   },
 ];
 
