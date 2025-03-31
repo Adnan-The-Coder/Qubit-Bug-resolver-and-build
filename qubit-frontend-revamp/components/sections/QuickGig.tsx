@@ -19,7 +19,7 @@ const QuickGig = () => {
         <p className="md:text-lg/8 text-sm/6 text-justify ">
           QuickGig is the ultimate freelancing hub within the Qubit platform,
           connecting skilled professionals with businesses and individuals
-          seeking top-tier services. Whether you're a freelancer looking for new
+          seeking top-tier services. Whether you`re a freelancer looking for new
           opportunities or a client in need of expert assistance, QuickGig
           offers a seamless and efficient experience. From design and
           development to writing, marketing, and beyond, QuickGig provides a
