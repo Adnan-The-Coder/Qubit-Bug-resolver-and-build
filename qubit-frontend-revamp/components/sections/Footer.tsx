@@ -110,6 +110,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="h-[1px] w-full border-dotted bg-white/20 my-8" />
+      <br />
+      <h1 className="text-center hover:">Developed and Refactored by Adnan</h1>
+      <br />
     </footer>
   );
 };
