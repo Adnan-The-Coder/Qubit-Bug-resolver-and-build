@@ -111,7 +111,7 @@ const Footer = () => {
       </div>
       <div className="h-[1px] w-full border-dotted bg-white/20 my-8" />
       <br />
-      <h1 className="text-center hover:">Developed and Refactored by Adnan</h1>
+      <h1 className="text-center hover:"><Link href={'https://www.linkedin.com/in/syedadnanali99/'}target="_blanck" >Developed and Refactored by Adnan </Link></h1>
       <br />
     </footer>
   );

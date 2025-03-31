@@ -146,7 +146,7 @@ export default function Quantumania() {
           variants={titleVariants}
           className="text-center mb-12"
         >
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-[#00ff99] to-[#00bbff] mb-2">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-[#00ff99] mb-2">
             QUANTUMANIA
           </h1>
           <motion.h2 
