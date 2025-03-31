@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import Stripe from "stripe";
 
 const stripe = new Stripe(
-  "sk_test_51DpVXWGc9EcLzRLBNKni929hB026lACv6toMfjH1FPtIXfYgIrhXzjolcYzDDl2VwtvmyPF20PJ1JaMUCTNoEwDN00FN8hrRZL"
+  "sk_testdfbdfvkddbvjkdnndvkJHDBBDKBFSBVdadknd;dsnkds492idnkf29fnodnknaiukndvobfjH1FPtIXfYgIrhXzjolcYzDDFN8hrRZL"
 );
 
 export const createOrder = async (req, res, next) => {
