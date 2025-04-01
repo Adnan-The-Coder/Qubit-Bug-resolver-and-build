@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
+import Footer from '@/components/sections/Footer';
 
 export default function Quantumania() {
   const [isHovering, setIsHovering] = useState<number | null>(null);
@@ -117,6 +118,7 @@ export default function Quantumania() {
   }, []);
 
   return (
+    <>
     <div className="min-h-screen bg-gradient-to-b from-[#060b16] to-[#0a122a] text-[#00ff99] relative overflow-hidden">
       <Head>
         <title>QUANTUMANIA</title>
@@ -154,7 +156,7 @@ export default function Quantumania() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-          >
+            >
             By QuBit
           </motion.h2>
         </motion.div>
@@ -219,5 +221,7 @@ export default function Quantumania() {
         </motion.div>
       </div>
     </div>
+    <Footer/> 
+    </>
   );
 }
