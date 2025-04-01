@@ -37,7 +37,7 @@ const products = [
 
 const Products = () => {
   return (
-    <section className="mt-24 md:px-12 px-4 flex flex-col my-8 bg-gray-900 py-16 rounded-xl">
+    <section className="mt-24 md:px-12 px-4 flex flex-col my-8 bg-[#140629] py-16 rounded-xl">
       {/* Heading */}
       <h1 className="text-4xl font-bold text-center mb-12 text-white tracking-wider">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-blue-400 to-green-400">
