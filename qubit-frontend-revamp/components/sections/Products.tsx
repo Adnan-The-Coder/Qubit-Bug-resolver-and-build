@@ -13,7 +13,7 @@ const products = [
     name: "Quickie",
     icon: <Store className="text-purple-600 w-10 h-10" />,
     bgColor: "bg-purple-100",
-    href: "https://dot-opal.vercel.app/shop",
+    href: "https://qubitquickie.myshopify.com/",
   },
   {
     id: 2,
