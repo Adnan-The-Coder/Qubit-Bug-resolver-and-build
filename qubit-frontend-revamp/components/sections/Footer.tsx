@@ -54,18 +54,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/treks" className=" font-semibold tex-[16px] mt-2">
+                <Link href="https://qubitquickie.myshopify.com/" className=" font-semibold tex-[16px] mt-2">
                   Quickie
                 </Link>
               </li>
               <li>
-                <Link href="/blogs" className=" font-semibold tex-[16px] mt-2">
+                <Link href="https://dot-quickgig-client.vercel.app/" className=" font-semibold tex-[16px] mt-2">
                   QuickGig
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contect-us"
+                  href="/quantumania"
                   className=" font-semibold tex-[16px] mt-2"
                 >
                   Quantumania

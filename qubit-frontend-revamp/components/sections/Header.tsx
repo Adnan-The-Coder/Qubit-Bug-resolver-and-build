@@ -15,9 +15,9 @@ const Header = () => {
 
         <div className="flex items-center justify-normal space-x-5">
           <div className="md:flex hidden items-center justify-normal space-x-5">
-            <Link href="https://dot-opal.vercel.app/">Quickie</Link>
-            <Link href="https://dot-fiverr.vercel.app/">QuickGig</Link>
-            <Link href="https://dot-opal.vercel.app/">QuantMania </Link>
+            <Link href="https://qubitquickie.myshopify.com/">Quickie</Link>
+            <Link href="https://dot-quickgig-client.vercel.app/">QuickGig</Link>
+            <Link href="/quantumania">QuantMania </Link>
           </div>
           <Button title="Try Now"></Button>
         </div>
