@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
       <div className="md:px-20 px-4 relative">
         <h1 className="text-8xl md:text-[168px] md:leading-none font-semibold text-center bg-white text-transparent bg-clip-text tracking-tighter bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))]">
-          Qubit
+          QuBIT
         </h1>
         <p className="text-lg text-white/70 mt-5 text-center max-w-4xl mx-auto">
           Qubit is a dynamic platform featuring Quickie for seamless shopping,
