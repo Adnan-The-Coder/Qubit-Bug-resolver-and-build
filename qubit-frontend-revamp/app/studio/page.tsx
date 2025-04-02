@@ -364,13 +364,13 @@ const TechLearning = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {courses.map((course) => (
-                <div 
-                  key={course.id} 
-                  className="bg-[#1a1a35] border border-[#2a2a50] rounded-lg overflow-hidden shadow-lg hover:shadow-[0_0_15px_rgba(79,172,254,0.3)] transition-all"
-                >
-                  <div className="h-3 bg-gradient-to-r from-[#4facfe] to-[#00f2fe]" style={{ width: `${course.progress}%` }}></div>
-                  <div className="p-6">
+            {courses.map((course) => (
+                    <div 
+                        key={course.id} 
+                        className="bg-[#1a1a35] border border-[#2a2a50] rounded-lg overflow-hidden shadow-lg hover:shadow-[0_0_15px_rgba(79,172,254,0.3)] transition-all"
+                    >
+                    <div className="h-3 bg-gradient-to-r from-[#4facfe] to-[#00f2fe]" style={{ width: `${course.progress ?? 0}%` }}></div>
+                    <div className="p-6">
                     <div className="flex justify-between items-start mb-4">
                       <span className="px-3 py-1 bg-[#2a2a50] rounded-full text-xs font-medium">
                         {course.category}
@@ -395,23 +395,23 @@ const TechLearning = () => {
                     </div>
                     
                     <div className="mt-6">
-                      <div className="flex justify-between items-center mb-1">
-                        <span className="text-xs text-gray-400">Progress</span>
-                        <span className="text-xs text-gray-400">{course.progress}%</span>
-                      </div>
-                      <div className="w-full bg-[#0a0a1f] rounded-full h-2">
-                        <div 
-                          className="bg-gradient-to-r from-[#4facfe] to-[#00f2fe] h-2 rounded-full" 
-                          style={{ width: `${course.progress}%` }}>
-                        </div>
-                      </div>
+                    <div className="flex justify-between items-center mb-1">
+                    <span className="text-xs text-gray-400">Progress</span>
+                    <span className="text-xs text-gray-400">{course.progress ?? 0}%</span>
                     </div>
-                    
-                    <button className="mt-6 w-full py-2 rounded-md bg-gradient-to-r from-[#4facfe] to-[#00f2fe] text-black font-semibold hover:opacity-90 transition-opacity">
-                      {course.progress > 0 ? "Continue Learning" : "Start Course"}
-                    </button>
-                  </div>
+                    <div className="w-full bg-[#0a0a1f] rounded-full h-2">
+                    <div 
+                        className="bg-gradient-to-r from-[#4facfe] to-[#00f2fe] h-2 rounded-full" 
+                        style={{ width: `${course.progress ?? 0}%` }}>
+                    </div>
+                    </div>
                 </div>
+                
+                <button className="mt-6 w-full py-2 rounded-md bg-gradient-to-r from-[#4facfe] to-[#00f2fe] text-black font-semibold hover:opacity-90 transition-opacity">
+                    {(course.progress ?? 0) > 0 ? "Continue Learning" : "Start Course"}
+                </button>
+                </div>
+            </div>
               ))}
             </div>
           </div>
