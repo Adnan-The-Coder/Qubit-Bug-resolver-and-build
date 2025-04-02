@@ -298,25 +298,25 @@ const TechLearning = () => {
                 <ul className="divide-y divide-[#2a2a50]">
                   <li className="p-4 text-sm hover:bg-[#2a2a50]/30 transition-colors">
                     <a href="https://www.freecodecamp.org/news/clean-code-javascript/" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#4facfe] hover:text-[#00f2fe] transition-colors">
-                      "Clean Code Principles in JavaScript"
+                      `Clean Code Principles in JavaScript`
                     </a>
                     <p className="text-gray-400 mt-1">by FreeCodeCamp • 2.3K Views</p>
                   </li>
                   <li className="p-4 text-sm hover:bg-[#2a2a50]/30 transition-colors">
                     <a href="https://www.smashingmagazine.com/2021/01/build-react-app-typescript/" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#4facfe] hover:text-[#00f2fe] transition-colors">
-                      "Building React Apps with TypeScript"
+                    `Building React Apps with TypeScript`
                     </a>
                     <p className="text-gray-400 mt-1">by SmashingMag • 1.7K Views</p>
                   </li>
                   <li className="p-4 text-sm hover:bg-[#2a2a50]/30 transition-colors">
                     <a href="https://css-tricks.com/modern-css-techniques/" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#4facfe] hover:text-[#00f2fe] transition-colors">
-                      "Modern CSS Techniques to Know in 2023"
+                      `Modern CSS Techniques to Know in 2023`
                     </a>
                     <p className="text-gray-400 mt-1">by CSS-Tricks • 1.2K Views</p>
                   </li>
                   <li className="p-4 text-sm hover:bg-[#2a2a50]/30 transition-colors">
                     <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ci-cd-pipeline-with-github-actions" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#4facfe] hover:text-[#00f2fe] transition-colors">
-                      "Setting Up CI/CD with GitHub Actions"
+                      `Setting Up CI/CD with GitHub Actions`
                     </a>
                     <p className="text-gray-400 mt-1">by DigitalOcean • 1.8K Views</p>
                   </li>
