@@ -9,7 +9,6 @@ import {
   Mail,
   MapPin,
   Phone,
-  Twitter,
   Youtube,
 } from "lucide-react";
 const Footer = () => {
