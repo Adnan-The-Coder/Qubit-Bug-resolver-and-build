@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button";
 import starBg from "@/public/assets/stars.png";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -34,7 +35,7 @@ const Hero = () => {
           study community, empowering users to connect and grow!
         </p>
         <div className="flex items-center justify-center mt-5">
-          <Button title="Try Now"></Button>
+          <Link href={'https://chat.whatsapp.com/EtdOsk3pxm1EeezraSssFy'}><Button title="Try Now"></Button></Link>
         </div>
       </div>
     </section>

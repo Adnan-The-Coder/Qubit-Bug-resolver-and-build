@@ -5,6 +5,7 @@ import logo from "@/public/Qubit-white.png";
 import {
   Instagram,
   Linkedin,
+  Facebook,
   Mail,
   MapPin,
   Phone,
@@ -89,10 +90,10 @@ const Footer = () => {
               <Instagram className="text-purple-700" />
             </Link>
             <Link
-              href=""
+              href="https://www.facebook.com/share/1RFA49CaG7/?mibextid=wwXIfr"
               className="w-[50px] h-[50px] rounded-full flex items-center justify-center bg-white"
             >
-              <Twitter className="text-purple-700" />
+              <Facebook className="text-purple-700" />
             </Link>
             <Link
               href="https://www.linkedin.com/in/dot-qubit-281264357/"

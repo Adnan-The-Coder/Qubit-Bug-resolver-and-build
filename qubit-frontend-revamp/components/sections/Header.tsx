@@ -19,7 +19,7 @@ const Header = () => {
             <Link href="https://dot-quickgig-client.vercel.app/">QuickGig</Link>
             <Link href="/quantumania">QuantMania </Link>
           </div>
-          <Button title="Try Now"></Button>
+          <Link href={'https://chat.whatsapp.com/EtdOsk3pxm1EeezraSssFy'}><Button title="Try Now"></Button></Link>
         </div>
       </div>
     </header>
