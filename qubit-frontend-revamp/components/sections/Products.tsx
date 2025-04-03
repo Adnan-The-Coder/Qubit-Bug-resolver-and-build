@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Store, Briefcase, Users } from "lucide-react";
+import { Store, Briefcase, Users,GraduationCap } from "lucide-react";
 
 const products = [
   {
@@ -36,6 +36,17 @@ const products = [
     bgColor: "bg-green-900/30",
     href: "/quantumania",
   },
+  {
+    id: 4,
+    name: "QuBIT Academy",
+    icon: <GraduationCap className="text-red-400 w-12 h-12" />,
+    description: "Collaborative platform for quantum enthusiasts to share ideas and resources.",
+    glowColor: "shadow-red-500/50",
+    borderColor: "border-red-500",
+    textColor: "text-red-400",
+    bgColor: "bg-orange-900/30",
+    href: "/quantumania",
+  },
 ];
 
 const Products = () => {
@@ -49,7 +60,7 @@ const Products = () => {
       </h1>
 
       {/* Product Grid */}
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto w-full">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto w-full">
         {products.map((product) => (
           <div
             key={product.id}
