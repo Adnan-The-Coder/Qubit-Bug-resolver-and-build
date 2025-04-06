@@ -18,6 +18,7 @@ const Header = () => {
             <Link href="https://qubitquickie.myshopify.com/">Quickie</Link>
             <Link href="https://dot-quickgig-client.vercel.app/">QuickGig</Link>
             <Link href="/quantumania">QuantMania </Link>
+            <Link href="/studio">Qubit Academy</Link>
           </div>
           <Link href={'https://chat.whatsapp.com/EtdOsk3pxm1EeezraSssFy'}><Button title="Try Now"></Button></Link>
         </div>

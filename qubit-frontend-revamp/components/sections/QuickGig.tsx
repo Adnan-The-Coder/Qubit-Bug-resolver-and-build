@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useRef } from "react";
-import test from "@/public/test.png";
+import test from "@/public/assets/quickgig_im_showcase.jpg";
 import { motion, useInView } from "framer-motion";
 
 const QuickGig = () => {

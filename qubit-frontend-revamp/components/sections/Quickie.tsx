@@ -1,13 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import test from "@/public/test.png";
+import test from "@/public/assets/quickie_im_showcase.jpg";
 import Button from "../Button";
+import Link from "next/link";
+
 const Quickie = () => {
   return (
     <section className="w-full grid lg:grid-cols-2 md:grid-cols-1 gap-14 mt-12">
       <div className="border-[1px] lg:w-[600px] md:w-full border-white/30 rounded-md p-2 ">
         <Image
           src={test}
+          width={600}
+          height={500}
           alt="Quickie"
           className="rounded-md scale-95 hover:scale-100 cursor-pointer"
         />
@@ -28,7 +32,10 @@ const Quickie = () => {
           smarter than ever before!
         </p>
         <div className="mt-4" />
-        <Button title="Try Now"></Button>
+        <Link href={"https://qubitquickie.myshopify.com/"}>
+          <Button title="Try Now">
+          </Button>
+        </Link>
       </div>
     </section>
   );

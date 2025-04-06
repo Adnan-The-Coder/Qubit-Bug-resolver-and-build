@@ -45,7 +45,7 @@ const products = [
     borderColor: "border-red-500",
     textColor: "text-red-400",
     bgColor: "bg-orange-900/30",
-    href: "/quantumania",
+    href: "/studio",
   },
 ];
 
