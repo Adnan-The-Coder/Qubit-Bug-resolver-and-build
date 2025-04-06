@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import './globals.css';
 import { Plus_Jakarta_Sans } from "next/font/google";
-// import { ThemeProvider } from "@/components/ThemeProvider";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import { Analytics } from "@vercel/analytics/react";
 import { cn } from "@/lib/utils";
 
@@ -70,10 +70,10 @@ export default function RootLayout({
         <link rel="canonical" href="https://qubit.mobi" />
       </head>
       <body className={cn('min-h-screen bg-dark-300 font-sans antialiased', fontSans.variable)}>
-        {/* <ThemeProvider attribute="class" defaultTheme="dark"> */}
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <Analytics />
           {children}
-        {/* </ThemeProvider> */}
+        </ThemeProvider>
       </body>
     </html>
   );
