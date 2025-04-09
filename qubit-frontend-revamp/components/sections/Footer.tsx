@@ -83,7 +83,7 @@ const Footer = () => {
           <h1 className="text-lg font-bold text-white">Follow Us</h1>
           <div className="flex items-center justify-normal gap-4 lg:mt-12 mt-4">
             <Link
-              href="https://www.instagram.com/qubit_25?igsh=MTh2aXhibmk4N2xtZQ=="
+              href="https://www.instagram.com/qubit.mobi?igsh=MXBuandiZ2RjOTZ4dQ=="
               className="w-[50px] h-[50px] rounded-full flex items-center justify-center bg-white"
             >
               <Instagram className="text-purple-700" />
